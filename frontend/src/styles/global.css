@@ -1,0 +1,47 @@
+@import './variables.css';
+
+body {
+    font-size: var(--font-size);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.App.light {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+
+.App.dark {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+
+button {
+    padding: var(--button-padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button styles for light mode */
+.App.light button {
+    background-color: var(--button-background-light);
+    color: var(--button-text-light);
+}
+
+/* Button styles for dark mode */
+.App.dark button {
+    background-color: var(--button-background-dark);
+    color: var(--button-text-dark);
+}
+
+button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,50 @@
+:root {
+  --background-color-light: #ffffff;
+  --background-color-dark: #181818;
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff;
+
+  --button-background-light: #f0f0f0;
+  --button-background-dark: #be4545;
+  --button-text-light: #000000;
+  --button-text-dark: #ffffff;
+
+  --font-size-small: 14px;
+  --font-size-medium: 16px;
+  --font-size-large: 18px;
+
+  --border-radius: 5px;
+  --button-padding: 10px 20px;
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  :root {
+    --font-size: var(--font-size-small);
+    --button-padding: 8px 16px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+  :root {
+    --font-size: var(--font-size-medium);
+    --button-padding: 10px 18px;
+  }
+}
+
+/* Laptops */
+@media (min-width: 901px) and (max-width: 1200px) {
+  :root {
+    --font-size: var(--font-size-medium);
+    --button-padding: 10px 20px;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1201px) {
+  :root {
+    --font-size: var(--font-size-large);
+    --button-padding: 12px 24px;
+  }
+}
