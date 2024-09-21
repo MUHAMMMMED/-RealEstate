@@ -1,10 +1,10 @@
 .theme-switcher {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
     background-color: var(--button-bg-light);
     color: var(--button-text-light);
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
@@ -23,6 +23,6 @@
 }
 
 .theme-switcher .icon {
-    margin-right: 8px;
+    margin-right: 0px;
     font-size: 18px;
 }

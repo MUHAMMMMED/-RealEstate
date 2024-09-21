@@ -1,20 +1,57 @@
 :root {
-  --background-color-light: #ffffff;
-  --background-color-dark: #181818;
+  /* ألوان الخلفية (Background colors) */
+  --background-color-light: #eee;
+  /* Light mode background color, typically used for page backgrounds */
+  --background-color-dark: #16190d;
+  /* Dark mode background color, typically used for page backgrounds */
+
+  /* ألوان النص (Text colors) */
   --text-color-light: #000000;
+  /* Light mode text color, used for primary text on a light background */
   --text-color-dark: #ffffff;
+  /* Dark mode text color, used for primary text on a dark background */
 
+  /* الإطارات (Borders) */
+  --border-light: 1px solid #ffffff;
+  /* Light mode border color, used for defining element boundaries on a light background */
+  --border-dark: 1px solid #000000;
+  /* Dark mode border color, used for defining element boundaries on a dark background */
+
+  /* ألوان الأزرار (Button colors) */
   --button-background-light: #f0f0f0;
-  --button-background-dark: #be4545;
+  /* Light mode button background color */
+  --button-background-dark: #000000;
+  /* Dark mode button background color */
   --button-text-light: #000000;
+  /* Light mode button text color */
   --button-text-dark: #ffffff;
+  /* Dark mode button text color */
 
+  /* حجم الخطوط (Font sizes) */
   --font-size-small: 14px;
+  /* Small font size, used for smaller text (e.g., captions, labels) */
   --font-size-medium: 16px;
+  /* Medium font size, used for standard text (e.g., paragraphs) */
   --font-size-large: 18px;
+  /* Large font size, used for headings or larger text elements */
 
+  /* الأبعاد العامة (General dimensions) */
   --border-radius: 5px;
+  /* Border radius, used to define the rounded corners of elements like buttons */
   --button-padding: 10px 20px;
+  /* Button padding, defines the space inside buttons between text and edges */
+
+  /* ألوان خلفية الرأس (Header Background Colors) */
+  --header-background-color-light: #2196f3;
+  /* Light mode header background color */
+  --header-background-color-dark: #000000;
+  /* Dark mode header background color */
+
+  /* ألوان نص الرأس (Header Text Colors) */
+  --header-text-color-light: #ffffff;
+  /* Light mode header text color */
+  --header-text-color-dark: #ffffff;
+  /* Dark mode header text color */
 }
 
 /* Mobile Devices */

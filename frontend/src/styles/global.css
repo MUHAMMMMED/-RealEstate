@@ -1,4 +1,17 @@
 @import './variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+
 
 body {
     font-size: var(--font-size);
@@ -9,17 +22,20 @@ body {
 
 .App {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 .App.light {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
+
 }
 
 .App.dark {
     background-color: var(--background-color-dark);
+
     color: var(--text-color-dark);
+
 }
 
 button {
