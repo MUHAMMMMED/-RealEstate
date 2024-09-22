@@ -1,10 +1,10 @@
 .theme-switcher {
-    position: absolute;
+    position: fixed;
     bottom: 50px;
     left: 20px;
     background-color: var(--button-bg-light);
     color: var(--button-text-light);
-    padding: 10px;
+    padding: 5px 9px 0px 9px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
@@ -25,4 +25,6 @@
 .theme-switcher .icon {
     margin-right: 0px;
     font-size: 18px;
+    padding: 0px 0px 0px 0px;
+
 }

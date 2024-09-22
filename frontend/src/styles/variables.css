@@ -1,8 +1,14 @@
 :root {
   /* ألوان الخلفية (Background colors) */
-  --background-color-light: #eee;
+  /* --background-color-light: #eee; */
+  --background-color-light: #ffffff;
+
   /* Light mode background color, typically used for page backgrounds */
-  --background-color-dark: #16190d;
+  --background-color-dark: #27233c;
+
+  --card-background-color-light: #ffffff;
+  --card-background-color-dark: #564e7d;
+  /* #312d4b */
   /* Dark mode background color, typically used for page backgrounds */
 
   /* ألوان النص (Text colors) */
@@ -10,6 +16,69 @@
   /* Light mode text color, used for primary text on a light background */
   --text-color-dark: #ffffff;
   /* Dark mode text color, used for primary text on a dark background */
+  --text-color-light: #655858;
+
+
+  --bs-blue: #16b1ff;
+  --bs-indigo: #666cff;
+  --bs-purple: #8c57ff;
+  --bs-pink: #e83e8c;
+  --bs-red: #ff4c51;
+  --bs-orange: #ffb400;
+  --bs-yellow: #ffd950;
+  --bs-green: #56ca00;
+  --bs-teal: #20c997;
+  --bs-cyan: #28c3d7;
+  --bs-black: #312d4b;
+  --bs-white: #fff;
+  --bs-gray: rgba(231, 227, 252, 0.6);
+  --bs-gray-dark: rgba(231, 227, 252, 0.8);
+  --bs-gray-25: rgba(231, 227, 252, 0.025);
+  --bs-gray-50: rgba(231, 227, 252, 0.06);
+  --bs-primary: #8c57ff;
+  --bs-secondary: #8a8d93;
+  --bs-success: #56ca00;
+  --bs-info: #16b1ff;
+  --bs-warning: #ffb400;
+  --bs-danger: #ff4c51;
+  --bs-light: #46445b;
+  --bs-dark: #d7d5ec;
+  --bs-gray: rgba(231, 227, 252, 0.1);
+  --bs-primary-rgb: 140, 87, 255;
+  --bs-secondary-rgb: 138, 141, 147;
+  --bs-success-rgb: 86, 202, 0;
+  --bs-info-rgb: 22, 177, 255;
+  --bs-warning-rgb: 255, 180, 0;
+  --bs-danger-rgb: 255, 76, 81;
+  --bs-light-rgb: 70, 68, 91;
+  --bs-dark-rgb: 215, 213, 236;
+  --bs-gray-rgb: 231, 227, 252;
+  --bs-primary-text-emphasis: #382366;
+  --bs-secondary-text-emphasis: #37383b;
+  --bs-success-text-emphasis: #225100;
+  --bs-info-text-emphasis: #094766;
+  --bs-warning-text-emphasis: #664800;
+  --bs-danger-text-emphasis: #661e20;
+  --bs-light-text-emphasis: rgba(231, 227, 252, 0.7);
+  --bs-dark-text-emphasis: rgba(231, 227, 252, 0.7);
+  --bs-primary-bg-subtle: #e8ddff;
+  --bs-secondary-bg-subtle: #e8e8e9;
+  --bs-success-bg-subtle: #ddf4cc;
+  --bs-info-bg-subtle: #d0efff;
+  --bs-warning-bg-subtle: #fff0cc;
+  --bs-danger-bg-subtle: #ffdbdc;
+  --bs-light-bg-subtle: rgba(254, 254, 255, 0.55);
+  --bs-dark-bg-subtle: rgba(231, 227, 252, 0.4);
+
+
+
+
+
+
+
+
+
+
 
   /* الإطارات (Borders) */
   --border-light: 1px solid #ffffff;
@@ -44,7 +113,7 @@
   /* ألوان خلفية الرأس (Header Background Colors) */
   --header-background-color-light: #2196f3;
   /* Light mode header background color */
-  --header-background-color-dark: #000000;
+  --header-background-color-dark: #564e7d;
   /* Dark mode header background color */
 
   /* ألوان نص الرأس (Header Text Colors) */

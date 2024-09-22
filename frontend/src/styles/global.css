@@ -22,18 +22,18 @@ body {
 
 .App {
     text-align: center;
-    padding: 5px;
+    padding: 1px;
+    float: right;
+    width: 100%;
 }
 
 .App.light {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
-
 }
 
 .App.dark {
     background-color: var(--background-color-dark);
-
     color: var(--text-color-dark);
 
 }
