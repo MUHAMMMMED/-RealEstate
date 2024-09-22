@@ -86,12 +86,11 @@
  @media only screen and (max-width: 950px) {
 
      .toggle-radius_dark {
-         border: var(--border-dark);
+         border: var(--border-light);
 
      }
 
      .toggle-radius_light {
-         border: var(--border-dark);
          border: var(--border-light);
      }
 

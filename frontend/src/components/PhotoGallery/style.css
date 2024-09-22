@@ -1,0 +1,73 @@
+.PhotoGallery {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    padding-bottom: 0px;
+
+}
+
+.PhotoGallery-light {
+    background-color: var(--card-background-color-light);
+}
+
+.PhotoGallery-dark {
+    background-color: var(--card-background-color-dark);
+}
+
+.main-image-container {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.main-image:hover {
+    transform: scale(1.01);
+}
+
+.thumbnail-image {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.thumbnail-image:hover {
+    transform: scale(1.0);
+    cursor: pointer;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 0;
+}
