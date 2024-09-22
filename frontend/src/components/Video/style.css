@@ -1,0 +1,45 @@
+.CardVideo {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 35px;
+    padding-bottom: 0px;
+}
+
+
+
+
+
+.Video-light {
+    background-color: var(--card-background-color-light);
+}
+
+.Video-dark {
+    background-color: var(--card-background-color-dark);
+}
+
+.iframe {
+    width: 100%;
+    border-radius: 5px;
+    height: 600px;
+}
+
+@media screen and (max-width: 600px) {
+    .CardVideo {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .iframe {
+        height: 350px;
+    }
+
+
+}

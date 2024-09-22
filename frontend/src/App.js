@@ -8,6 +8,7 @@ import 'swiper/css'; // ملف CSS الرئيسي لـ Swiper
 import 'swiper/css/navigation'; // إذا كنت تحتاج إلى الملاحة
 import 'swiper/css/pagination'; // إذا كنت تستخدم الترقيم
 
+import Video from './components/Video/Video';
 import './styles/global.css';
 import './styles/variables.css';
 
@@ -28,6 +29,7 @@ const App = () => {
     <div className={darkMode ? 'App dark' : 'App light'}>
       <Header darkMode={darkMode} />
       <PhotoGallery darkMode={darkMode} />
+      <Video darkMode={darkMode} />
       {/*
       <Filter darkMode={darkMode} />
       <Card darkMode={darkMode} />*/}
