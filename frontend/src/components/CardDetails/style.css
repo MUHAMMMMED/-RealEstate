@@ -1,0 +1,111 @@
+.CardDetails {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 35px;
+    padding-bottom: 35px;
+    height: auto;
+    background-color: aqua;
+}
+
+
+.CardDetails-light {
+    background-color: var(--card-background-color-light);
+}
+
+.CardDetails-dark {
+    background-color: var(--card-background-color-dark);
+}
+
+.Details_center {
+    float: right;
+    width: 100%;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.Details-location {
+    font-size: .9rem;
+    text-align: right;
+    float: right;
+    width: 100%;
+    padding: 0px 15px 0px 0px;
+
+}
+
+.Details-marker-icon {
+    color: #2196f3;
+    text-align: right;
+    margin-left: 5px;
+    margin-right: 2px;
+
+}
+
+.Details-location-samp {
+    text-align: right;
+    float: right;
+}
+
+.Ifo-text-light {
+    color: var(--bs-warning-text-emphasis);
+}
+
+.Ifo-text-dark {
+    color: var(--text-color-dark);
+}
+
+
+.Details_price {
+    color: #2196f3;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0px 20px 0px 0px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+
+}
+
+.currency {
+    font-size: 10px;
+}
+
+.Details_h2 {
+    text-align: right;
+    font-size: 25px;
+    padding: 0px 20px 0px 0px;
+    float: right;
+    width: 100%;
+
+}
+
+.Details_p {
+    text-align: right;
+    font-size: 15px;
+    float: right;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .CardDetails {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+
+    .Details_h2 {
+        font-size: 18px;
+    }
+
+    .Details_p {
+        padding: 15px;
+        padding-top: 0;
+    }
+}

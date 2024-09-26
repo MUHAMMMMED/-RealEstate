@@ -53,11 +53,13 @@
   --bs-light-rgb: 70, 68, 91;
   --bs-dark-rgb: 215, 213, 236;
   --bs-gray-rgb: 231, 227, 252;
+  /* color: ; */
+
   --bs-primary-text-emphasis: #382366;
   --bs-secondary-text-emphasis: #37383b;
   --bs-success-text-emphasis: #225100;
   --bs-info-text-emphasis: #094766;
-  --bs-warning-text-emphasis: #664800;
+  --bs-warning-text-emphasis: #655858;
   --bs-danger-text-emphasis: #661e20;
   --bs-light-text-emphasis: rgba(231, 227, 252, 0.7);
   --bs-dark-text-emphasis: rgba(231, 227, 252, 0.7);

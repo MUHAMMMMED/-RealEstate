@@ -1,0 +1,31 @@
+.Map {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 0px;
+
+}
+
+.Map_h4 {
+    text-align: right;
+    color: #2196f3;
+    padding: 0px 10px 20px 0px;
+    font-size: 17px;
+}
+
+.map_canvas {
+
+    float: right;
+    width: 100%;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 5px;
+
+}
+
+
+.map_iframe {
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+}
