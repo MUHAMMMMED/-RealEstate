@@ -1,0 +1,122 @@
+/* src/Screens/Dashboard/Dashboard.css */
+
+body {
+    margin: 0px;
+    color: rgb(74, 74, 74);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    transition: all 0.3s ease;
+    background-color: rgb(246, 247, 255);
+
+}
+
+.dashboard.ltr .main-content {
+    margin-left: 200px;
+    margin-right: 0;
+}
+
+.dashboard.rtl .main-content {
+    margin-right: 200px;
+    margin-left: 0;
+}
+
+.dashboard.collapsed.ltr .main-content {
+    margin-left: 80px;
+}
+
+.dashboard.collapsed.rtl .main-content {
+    margin-right: 80px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    transition: margin 0.3s ease;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.language-toggle {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.language-toggle:hover {
+    background: #0056b3;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    color: #4A90E2;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    /* سيظهر فقط في الشاشات الصغيرة */
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .dashboard.ltr .main-content,
+    .dashboard.rtl .main-content {
+        margin: 0;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        z-index: 1000;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.left {
+        left: 0;
+        transform: translateX(-100%);
+
+
+    }
+
+    .sidebar.right {
+        right: 0;
+        transform: translateX(100%);
+    }
+
+    .dashboard.mobile .sidebar {
+        transform: translateX(0);
+    }
+
+    .dashboard.mobile .sidebar.left.closed {
+        transform: translateX(-100%);
+    }
+
+    .dashboard.mobile .sidebar.right.closed {
+        transform: translateX(100%);
+    }
+}
